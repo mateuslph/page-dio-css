@@ -8,5 +8,5 @@ Avaliação da plataforma DIO
 </div>
 </br>
 <div align="center">
-  <img src="https://github.com/mateuslph/page-dio-css/blob/main/imgs/Desktop%20-%201.png"></img>
+  <img src="https://github.com/mateuslph/page-dio-css/blob/main/imgs/Desktop_1.png"></img>
 </div>
