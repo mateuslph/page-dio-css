@@ -1,3 +1,9 @@
+body {
+    background-color: #000;
+}
+
+*/* header */
+
 .banner {
     width: 100%;
     height: 605px;
@@ -58,4 +64,113 @@
     background-color: transparent;
     color: #3498db;
     font-size: 1.5em;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-content {
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-content h2 {
+    color: #33A8DB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+
+.course-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 30px 0 20px 0;
+}
+
+.module {
+    border: solid 2px #3498db;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 540px;
+    height: 55px;
+    background-color: #252525;
+    border-radius: 40px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transform-world {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+    background-image: url(./imgs/woman-code.png);
+    margin: 40px 0;
+}
+
+.transform-world p {
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    width: 250px;
+}
+
+.professional-challenges {
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.professional-challenges h2 {
+    color: #33A8DB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    width: 700px;
+    margin: 20px 0;
+}
+
+.professional-challenges p {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 792px;
+    margin: 20px 0;
 }
